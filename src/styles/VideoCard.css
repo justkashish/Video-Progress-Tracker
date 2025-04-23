@@ -1,0 +1,111 @@
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.video-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.video-card:hover .video-thumbnail {
+    transform: scale(1.05);
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.progress-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.progress-bar-mini {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.progress-fill-mini {
+    height: 100%;
+    background-color: #e74c3c;
+}
+
+.video-info {
+    padding: 12px;
+}
+
+.video-card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+    color: #2c3e50;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.4;
+}
+
+.video-card-author {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 0 4px 0;
+}
+
+.video-card-stats {
+    font-size: 0.8rem;
+    color: #777;
+    margin: 0;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .video-card-title {
+        font-size: 0.95rem;
+    }
+    .video-card-author {
+        font-size: 0.85rem;
+    }
+    .video-card-stats {
+        font-size: 0.75rem;
+    }
+}

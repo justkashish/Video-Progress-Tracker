@@ -1,0 +1,82 @@
+.progress-tracker {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.overall-progress,
+.detailed-progress {
+    margin-bottom: 1.5rem;
+}
+
+.progress-label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.progress-bar {
+    height: 24px;
+    background-color: #edf2f7;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #2ecc71, #27ae60);
+    border-radius: 12px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+.segments-bar {
+    height: 12px;
+    background-color: #edf2f7;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.watched-segment {
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.watched-segment:hover {
+    filter: brightness(1.1);
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .progress-bar {
+        height: 20px;
+    }
+    .segments-bar {
+        height: 10px;
+    }
+    .progress-text {
+        font-size: 0.7rem;
+    }
+}
