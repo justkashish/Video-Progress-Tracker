@@ -19,7 +19,7 @@ export const videoData = [{
         category: "Web Development",
         thumbnailUrl: "https://picsum.photos/id/1/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        duration: 723, // 12:03
+        duration: 655, // 10:55
         views: 189000,
         uploadDate: "1 month ago",
         progress: 0,
@@ -31,8 +31,8 @@ export const videoData = [{
         author: "AI Academy",
         category: "Data Science",
         thumbnailUrl: "https://picsum.photos/id/2/320/180",
-        videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        duration: 845, // 14:05
+        videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        duration: 60, // 14:05
         views: 320000,
         uploadDate: "3 weeks ago",
         progress: 0,
@@ -45,7 +45,7 @@ export const videoData = [{
         category: "Web Development",
         thumbnailUrl: "https://picsum.photos/id/3/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-        duration: 675, // 11:15
+        duration: 15,
         views: 215000,
         uploadDate: "5 days ago",
         progress: 0,
@@ -58,7 +58,7 @@ export const videoData = [{
         category: "Data Science",
         thumbnailUrl: "https://picsum.photos/id/4/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-        duration: 912, // 15:12
+        duration: 60,
         views: 178000,
         uploadDate: "2 months ago",
         progress: 0,
@@ -71,7 +71,7 @@ export const videoData = [{
         category: "UI/UX Design",
         thumbnailUrl: "https://picsum.photos/id/5/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-        duration: 542, // 9:02
+        duration: 15,
         views: 132000,
         uploadDate: "3 weeks ago",
         progress: 0,
@@ -84,7 +84,7 @@ export const videoData = [{
         category: "Web Development",
         thumbnailUrl: "https://picsum.photos/id/6/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-        duration: 785, // 13:05
+        duration: 15,
         views: 201000,
         uploadDate: "1 month ago",
         progress: 0,
@@ -97,7 +97,7 @@ export const videoData = [{
         category: "Blockchain",
         thumbnailUrl: "https://picsum.photos/id/7/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-        duration: 865, // 14:25
+        duration: 887, // 14:25
         views: 289000,
         uploadDate: "2 weeks ago",
         progress: 0,
@@ -110,7 +110,7 @@ export const videoData = [{
         category: "UI/UX Design",
         thumbnailUrl: "https://picsum.photos/id/8/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-        duration: 632, // 10:32
+        duration: 594, // 10:32
         views: 145000,
         uploadDate: "4 weeks ago",
         progress: 0,
@@ -123,7 +123,7 @@ export const videoData = [{
         category: "DevOps",
         thumbnailUrl: "https://picsum.photos/id/9/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        duration: 754, // 12:34
+        duration: 734, // 12:34
         views: 198000,
         uploadDate: "1 month ago",
         progress: 0,
@@ -136,7 +136,7 @@ export const videoData = [{
         category: "Web Development",
         thumbnailUrl: "https://picsum.photos/id/10/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
-        duration: 698, // 11:38
+        duration: 593, // 11:38
         views: 167000,
         uploadDate: "3 weeks ago",
         progress: 0,
@@ -149,7 +149,7 @@ export const videoData = [{
         category: "Cybersecurity",
         thumbnailUrl: "https://picsum.photos/id/11/320/180",
         videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-        duration: 825, // 13:45
+        duration: 47, // 13:45
         views: 231000,
         uploadDate: "2 months ago",
         progress: 0,
