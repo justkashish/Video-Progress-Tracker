@@ -1,3 +1,32 @@
+# 📺 React Lecture Video Library App
+
+A user-friendly React-based video library application that allows users to watch, track, and resume lecture videos with precise progress tracking.
+
+---
+
+## 🚀 Tech Stack
+
+- **React** – Frontend framework
+- **JavaScript** – Programming language
+- **CSS** – Styling
+- **ESLint** – Code linting and standards
+- **Webpack** – Module bundler
+- **Local Storage** – Persisting user progress
+
+---
+
+## ✨ Features
+
+- 🎞️ **Video Library Interface**: Browse and access multiple lecture videos from a unified video library.
+- ▶️ **Lecture Video Playback**: Seamless playback experience with custom video controls.
+- 🔁 **Auto-Resume Playback**: Videos resume from the exact point where users left off.
+- 📊 **Progress Tracking**: Real-time unique watch tracking with percentage progress updates.
+- 🧠 **Smart Tracking Logic**: Prevents double-counting of rewatched segments and intelligently tracks only unique watched intervals.
+- 📈 **Visual Progress Indicator**: Clear progress bar or percentage display that updates only when new segments are watched.
+- 🚀 **Fast Navigation Support**: Handles user seeks/jumps and only counts new unseen content towards progress.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
