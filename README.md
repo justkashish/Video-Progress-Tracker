@@ -37,7 +37,6 @@ cd video-library-app
 npm install
 npm start
 
----
 
 # Getting Started with Create React App
 
