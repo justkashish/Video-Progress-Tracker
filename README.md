@@ -31,11 +31,10 @@ A user-friendly React-based video library application that allows users to watch
 
 To run the project locally:
 
-```bash
-git clone https://github.com/your-username/video-library-app.git
-cd video-library-app
-npm install
-npm start
+### `git clone https://github.com/your-username/video-library-app.git`
+### `cd video-library-app`
+### `npm install`
+### `npm start`
 
 
 # Getting Started with Create React App
